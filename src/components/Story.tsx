@@ -6,8 +6,6 @@ const booklyLogo = '/assets/bookly-symbol-logo-white.png?v=story-logos-20260507'
 export default function Story() {
   return (
     <section id="story" className="section section--paper-alt story">
-      <div className="story__backdrop" aria-hidden="true">OUR STORY</div>
-
       <div className="section__inner">
         <Reveal as="h2" className="section__title" delay={120}>
           서울의 작은 책상에서<br />국내 최대 17개 지역까지.

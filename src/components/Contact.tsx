@@ -68,8 +68,6 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section section--night contact">
-      <div className="contact__backdrop" aria-hidden="true">get in touch</div>
-
       <div className="section__inner">
         <Reveal as="h2" className="section__title contact__title" delay={120}>
           문의하기
