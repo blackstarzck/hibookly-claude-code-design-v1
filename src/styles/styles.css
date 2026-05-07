@@ -443,6 +443,7 @@ button {
   color: rgba(255, 255, 255, 0.82);
   line-height: 1.5;
   margin: 0 0 40px;
+  word-break: keep-all;
 }
 
 .hero__ctas {
@@ -1834,6 +1835,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .hero__reveal,
   .blur-word {
     opacity: 1;
