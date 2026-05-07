@@ -1,0 +1,323 @@
+- generic [ref=e2]:
+  - navigation "주요 메뉴" [ref=e3]:
+    - link "Bookly 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#top"
+      - img "Bookly" [ref=e5]
+    - generic [ref=e6]:
+      - link "소개" [ref=e7] [cursor=pointer]:
+        - /url: "#about"
+      - link "연혁" [ref=e8] [cursor=pointer]:
+        - /url: "#story"
+      - link "네트워크" [ref=e9] [cursor=pointer]:
+        - /url: "#network"
+      - link "도서" [ref=e10] [cursor=pointer]:
+        - /url: "#books"
+      - link "소식" [ref=e11] [cursor=pointer]:
+        - /url: "#news"
+      - link "문의" [ref=e12] [cursor=pointer]:
+        - /url: "#contact"
+    - link "문의하기" [ref=e13] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=e15]:
+    - generic [ref=e16]: Bookly · 해외 저작권 에이전시
+    - heading "지식을 연결하고, 세계를 잇다." [level=1] [ref=e17]:
+      - generic [ref=e19]: 지식을 연결하고,
+      - generic [ref=e21]: 세계를 잇다.
+    - paragraph [ref=e22]:
+      - text: 위즈덤셀러에서 쌓아온 10년의 신뢰 위에 세워진 해외 저작권 에이전시.
+      - text: 한국의 이야기를 세계로 전합니다.
+    - link "신간안내" [ref=e24] [cursor=pointer]:
+      - /url: "#contact"
+      - generic [ref=e25]: 신간안내
+      - img [ref=e26]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: "0"
+        - generic [ref=e34]: 국내 유통사
+      - generic [ref=e35]:
+        - generic [ref=e37]: 0+
+        - generic [ref=e38]: IT 스타트업
+      - generic [ref=e39]:
+        - generic [ref=e41]: 0+
+        - generic [ref=e42]: 해외 거점
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: "01"
+        - generic [ref=e46]:
+          - heading "국제 저작권 대리" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 프리미엄 한국 출판 콘텐츠와 세계 시장을 연결합니다.
+      - generic [ref=e49]:
+        - generic [ref=e50]: "02"
+        - generic [ref=e51]:
+          - heading "시장 개발" [level=3] [ref=e52]
+          - paragraph [ref=e53]: 저작권 중개가 활발하지 않은 베트남과 동남아시아 시장을 발굴합니다.
+      - generic [ref=e54]:
+        - generic [ref=e55]: "03"
+        - generic [ref=e56]:
+          - heading "출판 컨설팅 / 번역 서비스" [level=3] [ref=e57]
+          - paragraph [ref=e58]: 저작권 중개와 연관된 계약, 번역, 현지화 업무를 지원합니다.
+      - generic [ref=e59]:
+        - generic [ref=e60]: "04"
+        - generic [ref=e61]:
+          - heading "전략적 파트너십" [level=3] [ref=e62]
+          - paragraph [ref=e63]: 글로벌 출판사와 장기 협력 구조를 구축합니다.
+  - generic [ref=e64]:
+    - generic:
+      - generic: a decade in print
+    - generic [ref=e65]:
+      - heading "서울의 작은 책상에서 17개국까지." [level=2] [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: 설립 2013
+            - img "wisdomseller" [ref=e71]
+            - heading "위즈덤셀러" [level=3] [ref=e72]
+            - paragraph [ref=e73]: 서울에서 출발한 부티크 저작권 에이전시. 10여 년간 한국 작가, 번역가, 해외 출판사와 조용히 일해 왔습니다.
+          - generic [ref=e74]: Bookly의 시작은 이곳입니다.
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 설립 2024
+            - img "wisdomseller" [ref=e78]
+            - heading "Bookly" [level=3] [ref=e79]
+            - paragraph [ref=e80]: 2024년 4월 설립. 위즈덤 생태계의 해외 사업을 담당하며 문학, 웹툰, 전자책, 오디오북을 하나의 에이전시로 묶습니다.
+          - generic [ref=e81]: 조용한 동반자. 진중한 작업.
+  - generic [ref=e83]:
+    - heading "여덟 개의 회사. 하나의 생태계." [level=2] [ref=e84]
+    - tablist [ref=e85]:
+      - tab "서울 · 수도권" [selected] [ref=e86] [cursor=pointer]
+      - tab "지역 · 신규 거점" [ref=e87] [cursor=pointer]
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: "2013"
+          - heading "위즈덤셀러" [level=4] [ref=e92]
+          - generic [ref=e93]: 서울
+        - paragraph [ref=e94]: 그룹의 모태가 된 도서 공급 및 저작권 파트너입니다.
+      - article [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: "2024"
+          - heading "Bookly" [level=4] [ref=e98]
+          - generic [ref=e99]: 서울
+        - paragraph [ref=e100]: 한국 작가와 출판사의 해외 저작권 대리, 계약, 인세 관리를 담당합니다.
+      - article [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]: 확정 예정
+          - heading "계열사 2" [level=4] [ref=e104]
+          - generic [ref=e105]: 수도권
+        - generic [ref=e106]: 준비 중
+      - article [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: 확정 예정
+          - heading "계열사 3" [level=4] [ref=e110]
+          - generic [ref=e111]: 수도권
+        - generic [ref=e112]: 준비 중
+      - article [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: 확정 예정
+          - heading "계열사 4" [level=4] [ref=e116]
+          - generic [ref=e117]: 수도권
+        - generic [ref=e118]: 준비 중
+  - region "선정 도서 쇼케이스" [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - img [ref=e127]
+          - img [ref=e129]
+          - img [ref=e131]
+          - img [ref=e133]
+          - img [ref=e135]
+          - img [ref=e137]
+          - img [ref=e139]
+          - img [ref=e141]
+          - img [ref=e143]
+          - img [ref=e145]
+          - img [ref=e147]
+          - img [ref=e149]
+          - img [ref=e151]
+          - img [ref=e153]
+          - img [ref=e155]
+        - generic [ref=e157]:
+          - img [ref=e159]
+          - img [ref=e161]
+          - img [ref=e163]
+          - img [ref=e165]
+          - img [ref=e167]
+          - img [ref=e169]
+          - img [ref=e171]
+          - img [ref=e173]
+          - img [ref=e175]
+          - img [ref=e177]
+          - img [ref=e179]
+          - img [ref=e181]
+          - img [ref=e183]
+          - img [ref=e185]
+          - img [ref=e187]
+          - img [ref=e189]
+        - generic [ref=e191]:
+          - img [ref=e193]
+          - img [ref=e195]
+          - img [ref=e197]
+          - img [ref=e199]
+          - img [ref=e201]
+          - img [ref=e203]
+          - img [ref=e205]
+          - img [ref=e207]
+          - img [ref=e209]
+          - img [ref=e211]
+          - img [ref=e213]
+          - img [ref=e215]
+          - img [ref=e217]
+          - img [ref=e219]
+          - img [ref=e221]
+          - img [ref=e223]
+      - generic [ref=e224]:
+        - heading "무한한 이야기, 끝없는 세계, 그리고 더." [level=2] [ref=e225]:
+          - text: 무한한 이야기,
+          - text: 끝없는 세계,
+          - text: 그리고 더.
+        - paragraph [ref=e226]: 국내 작가와 세계 시장을 잇는 저작권 에이전시. 새로운 발견과 깊은 몰입이 시작되는 곳에서 다음 이야기를 소개합니다.
+  - generic [ref=e227]:
+    - generic [ref=e229]:
+      - heading "국내 출판사의 신간 안내." [level=2] [ref=e230]
+      - tablist [ref=e231]:
+        - button "전체" [ref=e232] [cursor=pointer]
+        - button "아동" [ref=e233] [cursor=pointer]
+        - button "소설" [ref=e234] [cursor=pointer]
+        - button "자기계발" [ref=e235] [cursor=pointer]
+    - generic [ref=e238]:
+      - button "웃음방 상세 보기" [ref=e240] [cursor=pointer]:
+        - generic [ref=e241]:
+          - img "웃음방 표지" [ref=e242]
+          - generic [ref=e243]: 신간
+          - generic: 자세히 보기
+        - generic [ref=e244]: 웃음방
+        - generic [ref=e245]: 거북이북스
+        - generic [ref=e246]: 아동
+      - button "모방소녀 상세 보기" [ref=e248] [cursor=pointer]:
+        - generic [ref=e249]:
+          - img "모방소녀 표지" [ref=e250]
+          - generic [ref=e251]: 신간
+          - generic: 자세히 보기
+        - generic [ref=e252]: 모방소녀
+        - generic [ref=e253]: 소설
+      - button "잠이 달아나는 이야기 상세 보기" [ref=e255] [cursor=pointer]:
+        - generic [ref=e256]:
+          - img "잠이 달아나는 이야기 표지" [ref=e257]
+          - generic [ref=e258]: 신간
+          - generic: 자세히 보기
+        - generic [ref=e259]: 잠이 달아나는 이야기
+        - generic [ref=e260]: 아동
+      - button "익명연재 상세 보기" [ref=e262] [cursor=pointer]:
+        - generic [ref=e263]:
+          - img "익명연재 표지" [ref=e264]
+          - generic [ref=e265]: 신간
+          - generic: 자세히 보기
+        - generic [ref=e266]: 익명연재
+        - generic [ref=e267]: 소설
+      - button "1분 호흡이 아이의 뇌를 바꾼다 상세 보기" [ref=e269] [cursor=pointer]:
+        - generic [ref=e270]:
+          - img "1분 호흡이 아이의 뇌를 바꾼다 표지" [ref=e271]
+          - generic [ref=e272]: 신간
+          - generic: 자세히 보기
+        - generic [ref=e273]: 1분 호흡이 아이의 뇌를 바꾼다
+        - generic [ref=e274]: 자기계발
+  - generic [ref=e276]:
+    - heading "최근 소식." [level=2] [ref=e278]
+    - generic [ref=e279]:
+      - article [ref=e280]:
+        - generic [ref=e281]:
+          - generic [ref=e282]: 뉴스
+          - generic [ref=e283]: 2025년 00월 00일
+        - generic [ref=e284]:
+          - heading "최신 업데이트 제목" [level=3] [ref=e285]
+          - paragraph [ref=e286]: 운영 단계에서 실제 뉴스 게시물로 교체될 영역입니다.
+      - article [ref=e287]:
+        - generic [ref=e288]:
+          - generic [ref=e289]: 이벤트
+          - generic [ref=e290]: 2025년 00월 00일
+        - generic [ref=e291]:
+          - heading "다가오는 이벤트 제목" [level=3] [ref=e292]
+          - paragraph [ref=e293]: 도서전, 미팅, 출판 행사 일정을 노출합니다.
+      - article [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]: 공지
+          - generic [ref=e297]: 2025년 00월 00일
+        - generic [ref=e298]:
+          - heading "공지사항 제목" [level=3] [ref=e299]
+          - paragraph [ref=e300]: 카탈로그 공개와 자료 요청 안내를 게시합니다.
+  - generic [ref=e301]:
+    - generic:
+      - generic: get in touch
+    - generic [ref=e302]:
+      - heading "귀사의 리스트를 알려주세요." [level=2] [ref=e303]
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - generic [ref=e309]: 영미권
+              - heading "Camino" [level=4] [ref=e310]
+              - link "camino@hibookly.com" [ref=e311] [cursor=pointer]:
+                - /url: mailto:camino@hibookly.com
+            - generic [ref=e312]:
+              - generic [ref=e313]: 동남아권
+              - heading "Chloe" [level=4] [ref=e314]
+              - link "camino@hibookly.com" [ref=e315] [cursor=pointer]:
+                - /url: mailto:camino@hibookly.com
+            - generic [ref=e316]:
+              - generic [ref=e317]: 중국어권
+              - heading "Gada" [level=4] [ref=e318]
+              - link "camino@hibookly.com" [ref=e319] [cursor=pointer]:
+                - /url: mailto:camino@hibookly.com
+            - generic [ref=e320]:
+              - generic [ref=e321]: 일본어권
+              - heading "Lana" [level=4] [ref=e322]
+              - link "camino@hibookly.com" [ref=e323] [cursor=pointer]:
+                - /url: mailto:camino@hibookly.com
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: 한국 사무소
+              - paragraph [ref=e329]: 경기도 김포시 태장로 765, 506호, 대한민국
+            - generic [ref=e330]:
+              - generic [ref=e331]: 베트남 사무소
+              - paragraph [ref=e332]: 3F, HQ Tower, 201 Tran Nao, An Khanh Ward, 호치민시, 베트남
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic [ref=e338]: 이름
+              - textbox "이름" [ref=e339]:
+                - /placeholder: 담당자 이름
+            - generic [ref=e340]:
+              - generic [ref=e341]: 이메일
+              - textbox "이메일" [ref=e342]:
+                - /placeholder: name@example.com
+          - generic [ref=e343]:
+            - generic [ref=e344]: 메시지
+            - textbox "메시지" [ref=e345]:
+              - /placeholder: 저작권 문의 또는 협업 제안을 자유롭게 적어 주세요.
+          - generic [ref=e346]:
+            - paragraph [ref=e347]:
+              - text: 또는
+              - link "hello@bookly.kr" [ref=e348] [cursor=pointer]:
+                - /url: mailto:hello@bookly.kr
+              - text: 로 직접 보내주셔도 됩니다.
+            - button "보내기" [ref=e349] [cursor=pointer]:
+              - generic [ref=e350]: 보내기
+              - img [ref=e351]
+  - contentinfo [ref=e354]:
+    - generic [ref=e355]:
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - img "Bookly" [ref=e358]
+          - generic [ref=e359]: 지식을 연결하고, 세계를 잇다
+        - generic [ref=e360]:
+          - generic [ref=e361]: 사업자 정보
+          - list [ref=e362]:
+            - listitem [ref=e363]: 경기 김포시 태장로 765
+            - listitem [ref=e364]: 사업자 등록번호 366-88-03545
+            - listitem [ref=e365]: 대표이사 윤덕옥
+        - generic [ref=e366]:
+          - generic [ref=e367]: 파트너 국가
+          - paragraph [ref=e368]: 한국 · 일본 · 대만 · 중국 · 베트남 · 태국 · 인도네시아
+      - paragraph [ref=e370]: COPYRIGHT© 2025. Bookly. ALL RIGHT RESERVED
