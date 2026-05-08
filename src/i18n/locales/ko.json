@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "ariaLabel": "주요 메뉴",
+    "home": "Bookly 홈",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "contactCta": "문의하기",
+    "links": {
+      "about": "소개",
+      "story": "연혁",
+      "network": "네트워크",
+      "showcase": "쇼케이스",
+      "books": "도서",
+      "news": "소식",
+      "contact": "문의"
+    }
+  },
+  "languageSwitcher": {
+    "ariaLabel": "언어 선택",
+    "ko": "한국어",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "hero": {
+    "eyebrow": "Bookly · 해외 저작권 에이전시",
+    "headline": "지식을 연결하고,\n세계를 잇다",
+    "lede": "위즈덤샐러에서 쌓아온 10년의 신뢰 위에 세워진 해외 저작권 에이전시.<br />한국의 이야기를 세계로 전합니다.",
+    "ctaBooks": "신간안내"
+  },
+  "about": {
+    "stats": {
+      "domesticDistributors": "국내 유통사",
+      "itStartups": "IT 스타트업",
+      "globalBases": "해외 거점"
+    },
+    "services": {
+      "01": {
+        "title": "국제 저작권 대리",
+        "body": "프리미엄 한국 출판 콘텐츠와 세계 시장을 연결합니다."
+      },
+      "02": {
+        "title": "시장 개발",
+        "body": "저작권 중개가 활발하지 않은 베트남과 동남아시아 시장을 발굴합니다."
+      },
+      "03": {
+        "title": "출판 컨설팅 / 번역 서비스",
+        "body": "저작권 중개와 연관된 계약, 번역, 현지화 업무를 지원합니다."
+      },
+      "04": {
+        "title": "전략적 파트너십",
+        "body": "글로벌 출판사와 장기 협력 구조를 구축합니다."
+      }
+    }
+  },
+  "story": {
+    "title": "서울의 작은 책상에서<br />국내 최대 17개 지역까지",
+    "wisdomseller": {
+      "year": "설립 2013",
+      "title": "위즈덤샐러",
+      "body": "서울에서 출발한 부티크 저작권 에이전시. 10여 년간 한국 작가, 번역가, 해외 출판사와 조용히 일해 왔습니다.",
+      "quote": "Bookly의 시작은 이곳입니다."
+    },
+    "bookly": {
+      "year": "설립 2024",
+      "title": "Bookly",
+      "body": "2024년 4월 설립. 위즈덤 생태계의 해외 사업을 담당하며 문학, 웹툰, 전자책, 오디오북을 하나의 에이전시로 묶습니다.",
+      "quoteMain": "이야기는, ",
+      "quoteMuted": "여기서 계속됩니다."
+    }
+  },
+  "network": {
+    "titleMain": "여덟 개의 회사. ",
+    "titleMuted": "하나의 생태계",
+    "tabs": {
+      "seoul": "서울 · 수도권",
+      "regional": "지역 · 신규 거점"
+    },
+    "placeholderTag": "준비 중",
+    "foundedPrefix": "설립",
+    "yearTBD": "확정 예정",
+    "yearNew": "신규",
+    "cards": {
+      "wisdomseller": {
+        "name": "위즈덤샐러",
+        "city": "서울",
+        "body": "그룹의 모태가 된 도서 공급 및 저작권 파트너입니다."
+      },
+      "bookly": {
+        "name": "Bookly",
+        "city": "서울",
+        "body": "한국 작가와 출판사의 해외 저작권 대리, 계약, 인세 관리를 담당합니다."
+      },
+      "subsidiary2": {
+        "name": "계열사 2",
+        "city": "수도권"
+      },
+      "subsidiary3": {
+        "name": "계열사 3",
+        "city": "수도권"
+      },
+      "subsidiary4": {
+        "name": "계열사 4",
+        "city": "수도권"
+      },
+      "regionalDist": {
+        "name": "지방 유통 계열사",
+        "city": "지역"
+      },
+      "itStartup1": {
+        "name": "IT 스타트업 1",
+        "city": "국내"
+      },
+      "itStartup2": {
+        "name": "IT 스타트업 2",
+        "city": "국내"
+      },
+      "itStartup3": {
+        "name": "IT 스타트업 3",
+        "city": "국내"
+      },
+      "vietnam": {
+        "name": "신사업 법인",
+        "city": "베트남",
+        "body": "동남아시아 라이선싱과 신규 사업 확장을 위한 해외 거점입니다."
+      }
+    }
+  },
+  "showcase": {
+    "ariaLabel": "선정 도서 쇼케이스",
+    "titleLine1": "무한한 이야기,",
+    "titleLine2": "끝없는 세계,",
+    "titleLine3": "그리고 더",
+    "subtitle": "국내 작가와 세계 시장을 잇는 저작권 에이전시. 새로운 발견과 깊은 몰입이 시작되는 곳에서 다음 이야기를 소개합니다.",
+    "coverAlt": "{{title}} 표지"
+  },
+  "books": {
+    "titlePrefix": "국내 출판사의 ",
+    "titleEm": "신간 안내",
+    "filters": {
+      "all": "전체",
+      "child": "아동",
+      "fiction": "소설",
+      "selfDev": "자기계발"
+    },
+    "status": {
+      "new": "신간"
+    },
+    "viewMore": "자세히 보기",
+    "coverAlt": "{{title}} 표지",
+    "detailLabel": "{{title}} 상세 보기"
+  },
+  "bookModal": {
+    "close": "닫기",
+    "publisherUnknown": "출판사 미정",
+    "loadingPlaceholder": "도서 소개 본문이 준비 중입니다.",
+    "loadError": "도서 소개를 불러올 수 없습니다.",
+    "headings": {
+      "intro": "도서 소개",
+      "author": "작가 소개"
+    }
+  },
+  "news": {
+    "title": "최근 소식",
+    "items": {
+      "1": {
+        "kind": "뉴스",
+        "date": "2025년 00월 00일",
+        "title": "최신 업데이트 제목",
+        "body": "운영 단계에서 실제 뉴스 게시물로 교체될 영역입니다."
+      },
+      "2": {
+        "kind": "이벤트",
+        "date": "2025년 00월 00일",
+        "title": "다가오는 이벤트 제목",
+        "body": "도서전, 미팅, 출판 행사 일정을 노출합니다."
+      },
+      "3": {
+        "kind": "공지",
+        "date": "2025년 00월 00일",
+        "title": "공지사항 제목",
+        "body": "카탈로그 공개와 자료 요청 안내를 게시합니다."
+      }
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "managers": {
+      "english": {
+        "region": "영미권",
+        "name": "Camino"
+      },
+      "sea": {
+        "region": "동남아권",
+        "name": "Chloe"
+      },
+      "chinese": {
+        "region": "중국어권",
+        "name": "Gada"
+      },
+      "japanese": {
+        "region": "일본어권",
+        "name": "Lana"
+      }
+    },
+    "offices": {
+      "korea": {
+        "city": "한국 사무소",
+        "addr": "경기도 김포시 태장로 765, 506호, 대한민국"
+      },
+      "vietnam": {
+        "city": "베트남 사무소",
+        "addr": "3F, HQ Tower, 201 Tran Nao, An Khanh Ward, 호치민시, 베트남"
+      }
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "담당자 이름",
+      "email": "이메일",
+      "message": "메시지",
+      "messagePlaceholder": "저작권 문의 또는 협업 제안을 자유롭게 적어 주세요.",
+      "hint": "또는 <span>{{email}}</span> 로 직접 보내주셔도 됩니다.",
+      "send": "보내기",
+      "sending": "전송 중",
+      "successMsg": "문의가 접수되었습니다.",
+      "errorMsg": "전송에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+      "subject": "[Bookly 문의] {{name}}"
+    }
+  },
+  "footer": {
+    "businessInfoLabel": "사업자 정보",
+    "partnerCountriesLabel": "파트너 국가",
+    "businessLines": [
+      "경기 김포시 태장로 765",
+      "사업자 등록번호 366-88-03545",
+      "대표이사 윤덕옥"
+    ],
+    "territories": [
+      "한국",
+      "일본",
+      "대만",
+      "중국",
+      "베트남",
+      "태국",
+      "인도네시아"
+    ],
+    "copyright": "COPYRIGHT© 2025. Bookly. ALL RIGHT RESERVED"
+  }
+}

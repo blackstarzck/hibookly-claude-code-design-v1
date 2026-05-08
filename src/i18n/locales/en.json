@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "ariaLabel": "Main menu",
+    "home": "Bookly home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "contactCta": "Contact",
+    "links": {
+      "about": "About",
+      "story": "Story",
+      "network": "Network",
+      "showcase": "Showcase",
+      "books": "Books",
+      "news": "News",
+      "contact": "Contact"
+    }
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Select language",
+    "ko": "한국어",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "hero": {
+    "eyebrow": "Bookly · International Rights Agency",
+    "headline": "Connecting knowledge,\nbridging the world",
+    "lede": "An international rights agency built on a decade of trust at WisdomSeller.<br />Bringing Korean stories to the world.",
+    "ctaBooks": "New titles"
+  },
+  "about": {
+    "stats": {
+      "domesticDistributors": "Domestic distributors",
+      "itStartups": "Tech startups",
+      "globalBases": "Global offices"
+    },
+    "services": {
+      "01": {
+        "title": "International rights representation",
+        "body": "Connecting premium Korean publishing content with the global market."
+      },
+      "02": {
+        "title": "Market development",
+        "body": "Cultivating opportunities in Vietnam and Southeast Asia, where rights brokerage remains underdeveloped."
+      },
+      "03": {
+        "title": "Publishing consulting & translation",
+        "body": "Supporting contracts, translation, and localization tied to rights brokerage."
+      },
+      "04": {
+        "title": "Strategic partnerships",
+        "body": "Building long-term partnerships with global publishers."
+      }
+    }
+  },
+  "story": {
+    "title": "From a small desk in Seoul<br />to 17 partner regions nationwide",
+    "wisdomseller": {
+      "year": "Founded 2013",
+      "title": "WisdomSeller",
+      "body": "A boutique rights agency born in Seoul. For over a decade, we've worked quietly with Korean authors, translators, and overseas publishers.",
+      "quote": "Bookly began here."
+    },
+    "bookly": {
+      "year": "Founded 2024",
+      "title": "Bookly",
+      "body": "Established in April 2024. Leading the international business of the WisdomSeller ecosystem, uniting literature, webtoons, e-books, and audiobooks under one agency.",
+      "quoteMain": "The story, ",
+      "quoteMuted": "continues here."
+    }
+  },
+  "network": {
+    "titleMain": "Eight companies",
+    "titleMuted": "One ecosystem",
+    "tabs": {
+      "seoul": "Seoul · Capital area",
+      "regional": "Regional · New bases"
+    },
+    "placeholderTag": "In progress",
+    "foundedPrefix": "Founded",
+    "yearTBD": "TBD",
+    "yearNew": "New",
+    "cards": {
+      "wisdomseller": {
+        "name": "WisdomSeller",
+        "city": "Seoul",
+        "body": "Our founding partner for book supply and rights — the origin of the group."
+      },
+      "bookly": {
+        "name": "Bookly",
+        "city": "Seoul",
+        "body": "Handles international rights representation, contracts, and royalty management for Korean authors and publishers."
+      },
+      "subsidiary2": {
+        "name": "Affiliate 2",
+        "city": "Capital area"
+      },
+      "subsidiary3": {
+        "name": "Affiliate 3",
+        "city": "Capital area"
+      },
+      "subsidiary4": {
+        "name": "Affiliate 4",
+        "city": "Capital area"
+      },
+      "regionalDist": {
+        "name": "Regional distributor",
+        "city": "Regional"
+      },
+      "itStartup1": {
+        "name": "Tech startup 1",
+        "city": "Korea"
+      },
+      "itStartup2": {
+        "name": "Tech startup 2",
+        "city": "Korea"
+      },
+      "itStartup3": {
+        "name": "Tech startup 3",
+        "city": "Korea"
+      },
+      "vietnam": {
+        "name": "New venture entity",
+        "city": "Vietnam",
+        "body": "An overseas base for Southeast Asian licensing and new business expansion."
+      }
+    }
+  },
+  "showcase": {
+    "ariaLabel": "Selected book showcase",
+    "titleLine1": "Endless stories,",
+    "titleLine2": "boundless worlds,",
+    "titleLine3": "and beyond",
+    "subtitle": "A rights agency connecting Korean authors with the global market. The next story begins where new discoveries and deep immersion meet.",
+    "coverAlt": "{{title}} cover"
+  },
+  "books": {
+    "titlePrefix": "New releases from ",
+    "titleEm": "Korean publishers",
+    "filters": {
+      "all": "All",
+      "child": "Children",
+      "fiction": "Fiction",
+      "selfDev": "Self-development"
+    },
+    "status": {
+      "new": "New"
+    },
+    "viewMore": "View details",
+    "coverAlt": "{{title}} cover",
+    "detailLabel": "View {{title}} details"
+  },
+  "bookModal": {
+    "close": "Close",
+    "publisherUnknown": "Publisher TBD",
+    "loadingPlaceholder": "Book description is being prepared.",
+    "loadError": "Unable to load the book description.",
+    "headings": {
+      "intro": "About the book",
+      "author": "About the author"
+    }
+  },
+  "news": {
+    "title": "Recent news",
+    "items": {
+      "1": {
+        "kind": "News",
+        "date": "Month 00, 2025",
+        "title": "Latest update headline",
+        "body": "This area will be replaced with actual news posts at launch."
+      },
+      "2": {
+        "kind": "Event",
+        "date": "Month 00, 2025",
+        "title": "Upcoming event headline",
+        "body": "Book fairs, meetings, and publishing events will appear here."
+      },
+      "3": {
+        "kind": "Notice",
+        "date": "Month 00, 2025",
+        "title": "Notice headline",
+        "body": "Catalog releases and material request guidance will be posted here."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "managers": {
+      "english": {
+        "region": "English-speaking markets",
+        "name": "Camino"
+      },
+      "sea": {
+        "region": "Southeast Asia",
+        "name": "Chloe"
+      },
+      "chinese": {
+        "region": "Chinese-speaking markets",
+        "name": "Gada"
+      },
+      "japanese": {
+        "region": "Japanese-speaking markets",
+        "name": "Lana"
+      }
+    },
+    "offices": {
+      "korea": {
+        "city": "Korea office",
+        "addr": "765 Taejang-ro, Suite 506, Gimpo-si, Gyeonggi-do, Republic of Korea"
+      },
+      "vietnam": {
+        "city": "Vietnam office",
+        "addr": "3F, HQ Tower, 201 Tran Nao, An Khanh Ward, Ho Chi Minh City, Vietnam"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Contact name",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your rights inquiry or partnership proposal.",
+      "hint": "Or write directly to <span>{{email}}</span>.",
+      "send": "Send",
+      "sending": "Sending",
+      "successMsg": "Your inquiry has been received.",
+      "errorMsg": "Failed to send. Please try again shortly.",
+      "subject": "[Bookly Inquiry] {{name}}"
+    }
+  },
+  "footer": {
+    "businessInfoLabel": "Business info",
+    "partnerCountriesLabel": "Partner countries",
+    "businessLines": [
+      "765 Taejang-ro, Gimpo-si, Gyeonggi-do",
+      "Business Reg. No. 366-88-03545",
+      "CEO Yoon Deok-ok"
+    ],
+    "territories": [
+      "Korea",
+      "Japan",
+      "Taiwan",
+      "China",
+      "Vietnam",
+      "Thailand",
+      "Indonesia"
+    ],
+    "copyright": "COPYRIGHT© 2025. Bookly. ALL RIGHTS RESERVED"
+  }
+}

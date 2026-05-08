@@ -1,0 +1,244 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   FONTS — Freesentation 9 weights
+   ============================================================ */
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-1Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-2ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-3Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-4Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-5Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-6SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-7Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-8ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Freesentation";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Freesentation-9Black.ttf") format("truetype");
+}
+
+/* ============================================================
+   BASE — element styles + reveal/animation primitives
+   ============================================================ */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    scroll-padding-top: theme('spacing.header');
+  }
+
+  body {
+    @apply font-sans text-ink-1 leading-relaxed;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+  }
+
+  @media (min-width: 761px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  section {
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 760px) {
+    section {
+      scroll-snap-align: none;
+    }
+  }
+
+  ::selection {
+    background: theme('colors.warm.cream');
+    color: theme('colors.ink.1');
+  }
+
+  /* Reveal — IntersectionObserver-driven entrance (used by <Reveal>) */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 900ms cubic-bezier(0.16, 1, 0.3, 1),
+      transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  [data-reveal].is-shown {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* MaskLine primitive */
+  .mask-line {
+    display: block;
+    overflow: hidden;
+    line-height: 1.04;
+  }
+  .mask-line > span {
+    display: inline-block;
+    transform: translateY(110%);
+    opacity: 0;
+    transition: transform 1200ms cubic-bezier(0.16, 1, 0.3, 1),
+      opacity 1200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .mask-line.is-shown > span {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* BlurText primitive */
+  .blur-word {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(50px);
+    transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1),
+      filter 700ms cubic-bezier(0.16, 1, 0.3, 1),
+      transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .blur-word.is-shown {
+    opacity: 1;
+    filter: blur(0);
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .blur-word,
+    .hero-reveal {
+      opacity: 1;
+      filter: none;
+      transform: none;
+      transition: none;
+    }
+  }
+}
+
+/* ============================================================
+   COMPONENTS — shared atoms wired via class names
+   ============================================================ */
+@layer components {
+  /* LanguageSwitcher — used in Nav (light-on-dark default) + MobileMenu (dark-on-light) */
+  .lang-switcher {
+    @apply inline-flex items-center gap-[2px];
+  }
+
+  .lang-switcher__btn {
+    @apply appearance-none bg-transparent border-0 px-2 py-[6px] text-xs font-medium tracking-wider rounded-pill cursor-pointer;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+      background 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .lang-switcher__btn:hover {
+    color: #fff;
+  }
+  .lang-switcher__btn.is-active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  /* Inside Nav: when nav is hovered or scrolled-solid, switch to dark theme */
+  .nav-root:hover .lang-switcher__btn,
+  .nav-root.is-solid .lang-switcher__btn {
+    color: rgba(20, 17, 12, 0.6);
+  }
+  .nav-root:hover .lang-switcher__btn:hover,
+  .nav-root.is-solid .lang-switcher__btn:hover,
+  .nav-root:hover .lang-switcher__btn.is-active,
+  .nav-root.is-solid .lang-switcher__btn.is-active {
+    color: theme('colors.night.DEFAULT');
+  }
+  .nav-root:hover .lang-switcher__btn.is-active,
+  .nav-root.is-solid .lang-switcher__btn.is-active {
+    background: rgba(20, 17, 12, 0.08);
+  }
+
+  /* Inside MobileMenu lang slot: dark-on-light theme */
+  .mobile-menu-lang .lang-switcher__btn {
+    color: rgba(20, 17, 12, 0.6);
+  }
+  .mobile-menu-lang .lang-switcher__btn:hover {
+    color: theme('colors.night.DEFAULT');
+  }
+  .mobile-menu-lang .lang-switcher__btn.is-active {
+    color: theme('colors.night.DEFAULT');
+    background: rgba(20, 17, 12, 0.08);
+  }
+
+  /* BookModal body custom scrollbar */
+  .book-modal-body {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.ink.5') transparent;
+  }
+  .book-modal-body::-webkit-scrollbar {
+    width: 8px;
+  }
+  .book-modal-body::-webkit-scrollbar-thumb {
+    background: theme('colors.ink.5');
+    border-radius: 4px;
+  }
+
+  /* Contact form autofill — preserve dark theme through Chrome's yellow autofill */
+  .contact-form-input:-webkit-autofill,
+  .contact-form-input:-webkit-autofill:hover,
+  .contact-form-input:-webkit-autofill:focus,
+  .contact-form-input:autofill,
+  .contact-form-input:autofill:hover,
+  .contact-form-input:autofill:focus {
+    -webkit-text-fill-color: theme('colors.night.fg-1');
+    -webkit-box-shadow: 0 0 0 1000px #080704 inset;
+    box-shadow: 0 0 0 1000px #080704 inset;
+    caret-color: theme('colors.night.fg-1');
+    transition: background-color 9999s ease-out, color 9999s ease-out;
+  }
+}

@@ -3,3 +3,9 @@ dist
 *.tsbuildinfo
 .DS_Store
 .env.local
+
+# Local tooling / agent artifacts (not project source)
+.claude/
+.codex/
+.omx/
+.playwright-mcp/
