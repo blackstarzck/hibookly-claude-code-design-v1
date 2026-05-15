@@ -18,6 +18,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-1Thin.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 200;
@@ -25,6 +26,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-2ExtraLight.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 300;
@@ -32,6 +34,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-3Light.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 400;
@@ -39,6 +42,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-4Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 500;
@@ -46,6 +50,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-5Medium.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 600;
@@ -53,6 +58,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-6SemiBold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 700;
@@ -60,6 +66,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-7Bold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 800;
@@ -67,6 +74,7 @@
   font-display: swap;
   src: url("/fonts/Freesentation-8ExtraBold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Freesentation";
   font-weight: 900;
@@ -120,6 +128,7 @@
     transition: opacity 900ms cubic-bezier(0.16, 1, 0.3, 1),
       transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
   }
+
   [data-reveal].is-shown {
     opacity: 1;
     transform: none;
@@ -131,14 +140,16 @@
     overflow: hidden;
     line-height: 1.04;
   }
-  .mask-line > span {
+
+  .mask-line>span {
     display: inline-block;
     transform: translateY(110%);
     opacity: 0;
     transition: transform 1200ms cubic-bezier(0.16, 1, 0.3, 1),
       opacity 1200ms cubic-bezier(0.16, 1, 0.3, 1);
   }
-  .mask-line.is-shown > span {
+
+  .mask-line.is-shown>span {
     transform: translateY(0);
     opacity: 1;
   }
@@ -153,6 +164,7 @@
       filter 700ms cubic-bezier(0.16, 1, 0.3, 1),
       transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
   }
+
   .blur-word.is-shown {
     opacity: 1;
     filter: blur(0);
@@ -160,6 +172,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
+
     .blur-word,
     .hero-reveal {
       opacity: 1;
@@ -174,6 +187,7 @@
    COMPONENTS — shared atoms wired via class names
    ============================================================ */
 @layer components {
+
   /* LanguageSwitcher — used in Nav (light-on-dark default) + MobileMenu (dark-on-light) */
   .lang-switcher {
     @apply relative inline-flex;
@@ -245,23 +259,27 @@
   }
 
   .partner-logo-image {
-    filter: grayscale(100%) contrast(0.82) brightness(0.92);
+    /* filter: grayscale(100%) contrast(0.82) brightness(0.92); */
     opacity: 0.72;
     transition: filter 360ms cubic-bezier(0.16, 1, 0.3, 1),
-      opacity 360ms cubic-bezier(0.16, 1, 0.3, 1),
-      transform 360ms cubic-bezier(0.16, 1, 0.3, 1);
+      opacity 360ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .partner-card:hover .partner-logo-image,
-  .partner-card:focus-within .partner-logo-image {
-    filter: grayscale(0%);
-    opacity: 1;
-    transform: translateY(-2px);
+  .partners-marquee .swiper-wrapper {
+    transition-timing-function: linear !important;
   }
 
   @media (prefers-reduced-motion: reduce) {
     .partner-logo-image {
       transition: none;
+    }
+
+    .partners-marquee .swiper {
+      visibility: visible;
+    }
+
+    .partners-marquee .swiper-wrapper {
+      transform: none !important;
     }
   }
 
@@ -270,9 +288,11 @@
     scrollbar-width: thin;
     scrollbar-color: theme('colors.ink.5') transparent;
   }
+
   .book-modal-body::-webkit-scrollbar {
     width: 8px;
   }
+
   .book-modal-body::-webkit-scrollbar-thumb {
     background: theme('colors.ink.5');
     border-radius: 4px;
@@ -326,18 +346,14 @@
     background: rgba(248, 242, 229, 0.01);
     -webkit-backdrop-filter: grayscale(100%) saturate(0.35) contrast(0.92) brightness(1.03);
     backdrop-filter: grayscale(100%) saturate(0.35) contrast(0.92) brightness(1.03);
-    -webkit-mask-image: radial-gradient(
-      circle at var(--legacy-reveal-x) var(--legacy-reveal-y),
-      transparent 0%,
-      transparent var(--legacy-reveal-radius),
-      black calc(var(--legacy-reveal-radius) + 13%)
-    );
-    mask-image: radial-gradient(
-      circle at var(--legacy-reveal-x) var(--legacy-reveal-y),
-      transparent 0%,
-      transparent var(--legacy-reveal-radius),
-      black calc(var(--legacy-reveal-radius) + 13%)
-    );
+    -webkit-mask-image: radial-gradient(circle at var(--legacy-reveal-x) var(--legacy-reveal-y),
+        transparent 0%,
+        transparent var(--legacy-reveal-radius),
+        black calc(var(--legacy-reveal-radius) + 13%));
+    mask-image: radial-gradient(circle at var(--legacy-reveal-x) var(--legacy-reveal-y),
+        transparent 0%,
+        transparent var(--legacy-reveal-radius),
+        black calc(var(--legacy-reveal-radius) + 13%));
     transition: --legacy-reveal-radius 1350ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 

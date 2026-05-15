@@ -83,7 +83,7 @@ export default function Contact() {
     <ContentSection
       id="contact"
       tone="dark"
-      title={t('contact.title')}
+      title="Contact Us"
       className="relative overflow-hidden bg-night text-night-fg-1"
     >
       <div className="grid grid-cols-2 gap-20 max-[980px]:grid-cols-1 max-[980px]:gap-14">

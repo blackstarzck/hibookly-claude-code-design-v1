@@ -188,7 +188,7 @@ export default function LegacyTimeline() {
   return (
     <ContentSection
       id="legacy"
-      title={t('legacyTimeline.title')}
+      title="Our Story"
       description={t('legacyTimeline.description')}
       className="bg-paper relative overflow-hidden !px-0 !py-0"
       containerClassName="!max-w-none !mx-0"
@@ -218,9 +218,13 @@ export default function LegacyTimeline() {
         </svg>
 
         <svg
-          className="legacy-timeline__svg pointer-events-none absolute inset-x-0 bottom-0 z-0 w-full overflow-visible md:hidden"
-          style={{ top: 'var(--legacy-spine-top)' }}
-          viewBox="0 0 360 1000"
+          className="legacy-timeline__svg pointer-events-none absolute bottom-0 z-0 overflow-visible md:hidden"
+          style={{
+            top: 'var(--legacy-spine-top)',
+            left: 'calc(clamp(20px, 4vw, 48px) + 28px)',
+            width: '1px',
+          }}
+          viewBox="0 0 1 1000"
           preserveAspectRatio="none"
           aria-hidden="true"
         >
@@ -228,7 +232,7 @@ export default function LegacyTimeline() {
             className="legacy-timeline__path legacy-timeline__spine"
             pathLength="1"
             style={{ '--legacy-path-progress': 'var(--legacy-spine-progress, 0)' } as CSSProperties}
-            d="M28 0V1000"
+            d="M0 0V1000"
           />
         </svg>
 
@@ -249,7 +253,7 @@ export default function LegacyTimeline() {
                 }
               >
                 <figure
-                  className={`legacy-timeline__visual m-0 flex w-full max-w-[640px] flex-col gap-6 overflow-hidden max-md:col-start-2 ${
+                  className={`legacy-timeline__visual m-0 flex w-full max-w-[640px] flex-col gap-6 overflow-hidden max-md:col-start-2 max-md:row-start-2 ${
                     imageLeft
                       ? 'md:col-start-1 md:justify-self-end'
                       : 'md:col-start-3 md:justify-self-start'
@@ -265,7 +269,7 @@ export default function LegacyTimeline() {
                 </figure>
 
                 <div
-                  className="legacy-timeline__connector-wrap max-md:col-start-1 max-md:row-start-1 md:col-start-2 md:row-start-1 md:self-center"
+                  className="legacy-timeline__connector-wrap max-md:col-start-1 max-md:row-start-1 max-md:self-start md:col-start-2 md:row-start-1 md:self-center"
                   style={
                     {
                       '--legacy-node-progress': `var(--legacy-branch-${index}, 0)`,
@@ -280,7 +284,7 @@ export default function LegacyTimeline() {
                 </div>
 
                 <article
-                  className={`legacy-timeline__heading relative max-w-[360px] max-md:col-start-2 max-md:row-start-2 max-md:mt-6 max-md:pl-4 max-md:justify-self-start md:row-start-1 ${
+                  className={`legacy-timeline__heading relative max-w-[360px] max-md:col-start-2 max-md:row-start-1 max-md:mb-6 max-md:pl-4 max-md:justify-self-start md:row-start-1 ${
                     imageLeft
                       ? 'md:col-start-3 md:justify-self-start md:text-left'
                       : 'md:col-start-1 md:justify-self-end md:text-right'

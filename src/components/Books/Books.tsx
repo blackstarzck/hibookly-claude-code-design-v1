@@ -26,12 +26,7 @@ export default function Books() {
   return (
     <ContentSection
       id="books"
-      title={
-        <>
-          {t('books.titlePrefix')}
-          <span className="font-serif font-normal">{t('books.titleEm')}</span>
-        </>
-      }
+      title="Rights Guide"
       className="bg-paper"
     >
       <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">

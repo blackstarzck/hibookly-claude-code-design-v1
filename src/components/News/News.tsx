@@ -8,7 +8,7 @@ export default function News() {
   return (
     <ContentSection
       id="news"
-      title={t('news.title')}
+      title="News & Events"
       className="flex max-md:block items-center"
     >
       <div className="flex flex-col gap-6">

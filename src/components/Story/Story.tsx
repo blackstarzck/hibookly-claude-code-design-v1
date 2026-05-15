@@ -10,7 +10,7 @@ export default function Story() {
   return (
     <ContentSection
       id="story"
-      title={<span dangerouslySetInnerHTML={{ __html: t('story.title') }} />}
+      title="Our Story"
       className="bg-paper-2 relative overflow-hidden"
     >
       <div className="grid grid-cols-2 max-md:grid-cols-1 gap-8">

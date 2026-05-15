@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next';
 import ContentSection from '../ui/ContentSection';
 
 type LogoSize = 'wide' | 'midWide' | 'mid' | 'square';
@@ -25,8 +24,6 @@ const logoSizeClass: Record<LogoSize, string> = {
 };
 
 export default function Network() {
-  const { t } = useTranslation();
-
   return (
     <div className="relative isolate overflow-hidden bg-night">
       <img
@@ -39,14 +36,7 @@ export default function Network() {
       <ContentSection
         id="network"
         tone="dark"
-        title={
-          <>
-            {t('network.titleMain')}
-            <span className="font-serif font-normal text-night-fg-1/60">
-              {t('network.titleMuted')}
-            </span>
-          </>
-        }
+        title="Network"
         className="relative z-10 bg-transparent text-night-fg-1 overflow-hidden"
       >
         <ul
