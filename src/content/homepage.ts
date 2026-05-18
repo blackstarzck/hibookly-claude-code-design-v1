@@ -78,23 +78,27 @@ export const books: Book[] = [
   },
   {
     title: '모방소녀',
+    publisher: '텍스티',
     genre: '소설',
     cover: '/books/new/모방소녀/모방소녀.jpg',
     descPath: '/books/new/모방소녀/모방소녀 도서소개.txt',
   },
   {
     title: '잠이 달아나는 이야기',
+    publisher: '거북이북스',
     genre: '아동',
     cover: '/books/new/잠이 달아나는 이야기/잠이 달아나는 이야기.jpg',
     descPath: '/books/new/잠이 달아나는 이야기/잠이 달아나는 이야기.txt',
   },
   {
     title: '익명연재',
+    publisher: '텍스티',
     genre: '소설',
     cover: '/books/new/익명연재/익명연재.jpg',
   },
   {
     title: '1분 호흡이 아이의 뇌를 바꾼다',
+    publisher: '세종서적',
     genre: '자기계발',
     cover: '/books/new/1분 호흡이 아이의 뇌를 바꾼다/1분 호흡이 아이의 뇌를 바꾼다_입체표지.jpg',
   },
