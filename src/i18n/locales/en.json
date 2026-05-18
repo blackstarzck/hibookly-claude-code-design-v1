@@ -4,7 +4,16 @@
     "home": "Bookly home",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "contactCta": "Contact"
+    "contactCta": "Contact",
+    "links": {
+      "about": "About us",
+      "story": "Our Story",
+      "network": "Network",
+      "showcase": "Exported titles",
+      "books": "Rights Guide",
+      "news": "News & Events",
+      "contact": "Contact Us"
+    }
   },
   "languageSwitcher": {
     "ariaLabel": "Select language",
@@ -80,6 +89,7 @@
     }
   },
   "network": {
+    "ariaLabel": "Bookly network companies",
     "titleMain": "Eight companies",
     "titleMuted": "One ecosystem",
     "tabs": {
@@ -135,6 +145,9 @@
         "body": "An overseas base for Southeast Asian licensing and new business expansion."
       }
     }
+  },
+  "partners": {
+    "ariaLabel": "Partner logos"
   },
   "showcase": {
     "ariaLabel": "Selected book showcase",

@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import ContentSection from '../ui/ContentSection';
 
 type LogoSize = 'wide' | 'midWide' | 'mid' | 'square';
@@ -24,6 +25,8 @@ const logoSizeClass: Record<LogoSize, string> = {
 };
 
 export default function Network() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative isolate overflow-hidden bg-night">
       <img
@@ -36,12 +39,12 @@ export default function Network() {
       <ContentSection
         id="network"
         tone="dark"
-        title="Network"
+        title={t('nav.links.network')}
         className="relative z-10 bg-transparent text-night-fg-1 overflow-hidden"
       >
         <ul
           className="relative z-10 grid grid-cols-4 gap-3 max-md:grid-cols-3 max-[520px]:grid-cols-2"
-          aria-label="Bookly network companies"
+          aria-label={t('network.ariaLabel')}
         >
           {companyLogos.map((logo) => (
             <li

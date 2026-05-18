@@ -208,7 +208,7 @@ export default function LegacyTimeline() {
   return (
     <ContentSection
       id="legacy"
-      title="Our Story"
+      title={t('nav.links.story')}
       description={t('legacyTimeline.description')}
       className="bg-paper relative overflow-hidden !px-0 !py-0"
       containerClassName="!max-w-none !mx-0"

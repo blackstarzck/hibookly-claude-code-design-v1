@@ -4,7 +4,16 @@
     "home": "Bookly 홈",
     "openMenu": "메뉴 열기",
     "closeMenu": "메뉴 닫기",
-    "contactCta": "문의하기"
+    "contactCta": "문의하기",
+    "links": {
+      "about": "회사 소개",
+      "story": "우리 이야기",
+      "network": "네트워크",
+      "showcase": "수출 도서",
+      "books": "권리 안내",
+      "news": "뉴스 및 이벤트",
+      "contact": "문의하기"
+    }
   },
   "languageSwitcher": {
     "ariaLabel": "언어 선택",
@@ -80,6 +89,7 @@
     }
   },
   "network": {
+    "ariaLabel": "Bookly 네트워크 회사",
     "titleMain": "여덟 개의 회사. ",
     "titleMuted": "하나의 생태계",
     "tabs": {
@@ -135,6 +145,9 @@
         "body": "동남아시아 라이선싱과 신규 사업 확장을 위한 해외 거점입니다."
       }
     }
+  },
+  "partners": {
+    "ariaLabel": "파트너 로고"
   },
   "showcase": {
     "ariaLabel": "선정 도서 쇼케이스",

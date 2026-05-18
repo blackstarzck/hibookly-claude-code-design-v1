@@ -3,12 +3,6 @@ import { Globe2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGS, type Lang, buildLangPath } from '../../../i18n';
 
-const languageLabels: Record<Lang, string> = {
-  ko: '한국어',
-  en: 'English',
-  vi: 'Tiếng Việt',
-};
-
 function changeLanguage(lang: Lang, current: Lang, i18n: ReturnType<typeof useTranslation>['i18n']) {
   if (lang === current) return;
 
@@ -59,7 +53,7 @@ export default function LanguageSwitcher() {
         onClick={() => setOpen((value) => !value)}
       >
         <Globe2 className="lang-switcher__globe" size={18} strokeWidth={1.9} aria-hidden="true" />
-        <span>{languageLabels[current] ?? languageLabels.ko}</span>
+        <span>{t(`languageSwitcher.${current}`)}</span>
       </button>
 
       {open && (
@@ -73,7 +67,7 @@ export default function LanguageSwitcher() {
               aria-selected={lang === current}
               onClick={() => onChange(lang)}
             >
-              {languageLabels[lang]}
+              {t(`languageSwitcher.${lang}`)}
             </button>
           ))}
         </div>
@@ -97,7 +91,7 @@ export function MobileLanguageSelector() {
           aria-checked={lang === current}
           onClick={() => changeLanguage(lang, current, i18n)}
         >
-          {languageLabels[lang]}
+          {t(`languageSwitcher.${lang}`)}
         </button>
       ))}
     </div>

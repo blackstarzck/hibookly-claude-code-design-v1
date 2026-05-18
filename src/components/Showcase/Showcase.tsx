@@ -61,7 +61,7 @@ export default function Showcase() {
   return (
     <ContentSection
       id="showcase"
-      title="Exported titles"
+      title={t('nav.links.showcase')}
       description={t('showcase.subtitle')}
       className="relative overflow-hidden"
     >

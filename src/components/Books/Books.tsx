@@ -26,7 +26,7 @@ export default function Books() {
   return (
     <ContentSection
       id="books"
-      title="Rights Guide"
+      title={t('nav.links.books')}
       className="bg-paper"
     >
       <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">

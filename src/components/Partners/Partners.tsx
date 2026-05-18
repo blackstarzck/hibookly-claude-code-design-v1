@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
+import { useTranslation } from 'react-i18next';
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -20,9 +21,11 @@ const partnerLogos = [
 ];
 
 export default function Partners() {
+  const { t } = useTranslation();
+
   return (
     <section
-      aria-label="Partner logos"
+      aria-label={t('partners.ariaLabel')}
       className="partners-marquee py-16 max-md:py-12 overflow-hidden relative [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
     >
       <Swiper

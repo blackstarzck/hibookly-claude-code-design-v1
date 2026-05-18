@@ -1,28 +1,272 @@
 {
+  "nav": {
+    "ariaLabel": "Menu chính",
+    "home": "Trang chủ Bookly",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "contactCta": "Liên hệ",
+    "links": {
+      "about": "Giới thiệu",
+      "story": "Câu chuyện",
+      "network": "Mạng lưới",
+      "showcase": "Tựa sách xuất khẩu",
+      "books": "Hướng dẫn bản quyền",
+      "news": "Tin tức & Sự kiện",
+      "contact": "Liên hệ"
+    }
+  },
   "languageSwitcher": {
+    "ariaLabel": "Chọn ngôn ngữ",
     "ko": "한국어",
     "en": "English",
     "vi": "Tiếng Việt"
   },
+  "hero": {
+    "eyebrow": "Bookly · Đại lý bản quyền quốc tế",
+    "headline": "Kết nối tri thức,\nbắc nhịp tới thế giới",
+    "lede": "Đại lý bản quyền quốc tế được xây dựng trên hơn một thập kỷ tin cậy tại WisdomSeller.<br />Đưa những câu chuyện Hàn Quốc ra thế giới."
+  },
+  "about": {
+    "stats": {
+      "domesticDistributors": "Nhà phân phối trong nước",
+      "itStartups": "Startup công nghệ",
+      "globalBases": "Văn phòng toàn cầu"
+    },
+    "services": {
+      "01": {
+        "title": "Đại lý bản quyền toàn cầu",
+        "body": "Kết nối nội dung xuất bản chất lượng của Hàn Quốc với thị trường quốc tế."
+      },
+      "02": {
+        "title": "Khai mở thị trường mới nổi",
+        "body": "Mở ra Việt Nam và Đông Nam Á như những thị trường tăng trưởng tiếp theo."
+      },
+      "03": {
+        "title": "Giải pháp bản địa hóa trọn gói",
+        "body": "Hỗ trợ hợp đồng, dịch thuật và bản địa hóa để xuất bản toàn cầu liền mạch."
+      },
+      "04": {
+        "title": "Quan hệ đối tác toàn cầu chiến lược",
+        "body": "Xây dựng mạng lưới dài hạn dựa trên niềm tin với các nhà xuất bản toàn cầu."
+      }
+    }
+  },
+  "story": {
+    "title": "Từ một bàn làm việc nhỏ ở Seoul<br />đến 17 khu vực đối tác trên toàn quốc",
+    "wisdomseller": {
+      "year": "Thành lập 2013",
+      "title": "WisdomSeller",
+      "body": "Một đại lý bản quyền boutique ra đời tại Seoul. Trong hơn một thập kỷ, chúng tôi đã âm thầm làm việc cùng tác giả, dịch giả và nhà xuất bản nước ngoài.",
+      "quote": "Bookly bắt đầu từ đây."
+    },
+    "bookly": {
+      "year": "Thành lập 2024",
+      "title": "Bookly",
+      "body": "Được thành lập vào tháng 4 năm 2024. Bookly dẫn dắt mảng kinh doanh quốc tế của hệ sinh thái WisdomSeller, kết nối văn học, webtoon, sách điện tử và sách nói trong một đại lý thống nhất.",
+      "quoteMain": "Câu chuyện, ",
+      "quoteMuted": "tiếp tục tại đây."
+    }
+  },
   "legacyTimeline": {
-    "title": "Bắt đầu từ niềm tin, mở rộng ra thế giới",
-    "description": "Câu chuyện của Bookly phù hợp hơn khi được đọc như một hành trình. Từ nền tảng vận hành của WisdomSeller đến trao đổi nội dung xuyên biên giới, mỗi bước cho thấy niềm tin đó đang được mở rộng.",
+    "title": "Xây trên niềm tin, mở rộng qua biên giới",
+    "description": "Câu chuyện của Bookly dễ được cảm nhận như một hành trình hơn là một đoạn giới thiệu đơn lẻ. Từ nền tảng vận hành của WisdomSeller đến trao đổi nội dung xuyên biên giới, từng bước cho thấy niềm tin ấy đang được mở rộng.",
     "items": {
       "trust": {
         "kicker": "Legacy of Trust",
         "title": "Nền tảng của niềm tin",
-        "body": "Bookly được xây dựng trên kinh nghiệm của WisdomSeller, thành lập năm 2013. Hơn 10 năm qua, nền tảng này đã tạo dựng niềm tin khi cung cấp sách cho cơ quan chính phủ, trường học và đơn vị quân đội có tiêu chuẩn nghiêm ngặt."
+        "body": "Bookly được xây dựng trên kinh nghiệm của WisdomSeller, thành lập năm 2013. Trong hơn một thập kỷ, nền tảng đó đã tạo dựng niềm tin qua việc cung cấp sách cho cơ quan chính phủ, trường học và đơn vị quân đội với tiêu chuẩn nghiêm ngặt."
       },
       "operations": {
         "kicker": "Professional Operations",
-        "title": "Vận hành minh bạch",
-        "body": "Thông qua các nền tảng đấu thầu chính thức như KONEPS, hệ thống mua sắm quốc phòng điện tử và School Market, công ty duy trì giao dịch công bằng, đồng thời mở rộng sang dữ liệu MARC và dịch vụ thiết bị chuyên dụng."
+        "title": "Vận hành minh bạch, chuyên nghiệp",
+        "body": "Thông qua các nền tảng mua sắm chính thức như KONEPS, hệ thống mua sắm điện tử quốc phòng và School Market, công ty duy trì giao dịch công bằng, đồng thời mở rộng sang xây dựng dữ liệu MARC và dịch vụ thiết bị chuyên môn."
       },
       "expansion": {
         "kicker": "Mission & Strategy",
         "title": "Bookly mở rộng toàn cầu",
-        "body": "Bookly kết nối tác giả và nhà xuất bản Hàn Quốc với độc giả rộng hơn tại châu Á, hỗ trợ sách in, eBook, audiobook, webtoon và webnovel."
+        "body": "Bookly kết nối tác giả và nhà xuất bản Hàn Quốc với cộng đồng độc giả rộng hơn trên khắp châu Á, hỗ trợ sách in, eBook, audiobook, webtoon và webnovel."
       }
     }
+  },
+  "network": {
+    "ariaLabel": "Các công ty trong mạng lưới Bookly",
+    "titleMain": "Tám công ty. ",
+    "titleMuted": "Một hệ sinh thái",
+    "tabs": {
+      "seoul": "Seoul · Khu vực thủ đô",
+      "regional": "Địa phương · Cơ sở mới"
+    },
+    "placeholderTag": "Đang chuẩn bị",
+    "foundedPrefix": "Thành lập",
+    "yearTBD": "Sẽ cập nhật",
+    "yearNew": "Mới",
+    "cards": {
+      "wisdomseller": {
+        "name": "WisdomSeller",
+        "city": "Seoul",
+        "body": "Đối tác sáng lập về cung ứng sách và bản quyền, cũng là điểm khởi đầu của tập đoàn."
+      },
+      "bookly": {
+        "name": "Bookly",
+        "city": "Seoul",
+        "body": "Đại diện bản quyền quốc tế, quản lý hợp đồng và tiền bản quyền cho tác giả cùng nhà xuất bản Hàn Quốc."
+      },
+      "subsidiary2": {
+        "name": "Công ty thành viên 2",
+        "city": "Khu vực thủ đô"
+      },
+      "subsidiary3": {
+        "name": "Công ty thành viên 3",
+        "city": "Khu vực thủ đô"
+      },
+      "subsidiary4": {
+        "name": "Công ty thành viên 4",
+        "city": "Khu vực thủ đô"
+      },
+      "regionalDist": {
+        "name": "Nhà phân phối khu vực",
+        "city": "Địa phương"
+      },
+      "itStartup1": {
+        "name": "Startup công nghệ 1",
+        "city": "Hàn Quốc"
+      },
+      "itStartup2": {
+        "name": "Startup công nghệ 2",
+        "city": "Hàn Quốc"
+      },
+      "itStartup3": {
+        "name": "Startup công nghệ 3",
+        "city": "Hàn Quốc"
+      },
+      "vietnam": {
+        "name": "Pháp nhân liên doanh mới",
+        "city": "Việt Nam",
+        "body": "Cơ sở nước ngoài cho cấp phép tại Đông Nam Á và mở rộng hoạt động kinh doanh mới."
+      }
+    }
+  },
+  "partners": {
+    "ariaLabel": "Logo đối tác"
+  },
+  "showcase": {
+    "ariaLabel": "Các tựa sách tiêu biểu",
+    "titleLine1": "Những câu chuyện vô tận,",
+    "titleLine2": "những thế giới không biên giới,",
+    "titleLine3": "và xa hơn nữa",
+    "subtitle": "Đại lý bản quyền kết nối tác giả Hàn Quốc với thị trường toàn cầu. Câu chuyện tiếp theo bắt đầu nơi những khám phá mới gặp chiều sâu cảm xúc.",
+    "coverAlt": "Bìa {{title}}"
+  },
+  "books": {
+    "titlePrefix": "Sách mới từ ",
+    "titleEm": "nhà xuất bản Hàn Quốc",
+    "filters": {
+      "all": "Tất cả",
+      "child": "Thiếu nhi",
+      "fiction": "Tiểu thuyết",
+      "selfDev": "Phát triển bản thân"
+    },
+    "status": {
+      "new": "Mới"
+    },
+    "viewMore": "Xem chi tiết",
+    "coverAlt": "Bìa {{title}}",
+    "detailLabel": "Xem chi tiết {{title}}"
+  },
+  "bookModal": {
+    "close": "Đóng",
+    "publisherUnknown": "Chưa xác định nhà xuất bản",
+    "loadingPlaceholder": "Phần giới thiệu sách đang được chuẩn bị.",
+    "loadError": "Không thể tải phần giới thiệu sách.",
+    "headings": {
+      "intro": "Giới thiệu sách",
+      "author": "Giới thiệu tác giả"
+    }
+  },
+  "news": {
+    "title": "Tin mới",
+    "items": {
+      "1": {
+        "kind": "Tin tức",
+        "date": "Tháng 00, 2025",
+        "title": "Tiêu đề cập nhật mới nhất",
+        "body": "Khu vực này sẽ được thay bằng các bài tin thực tế khi ra mắt."
+      },
+      "2": {
+        "kind": "Sự kiện",
+        "date": "Tháng 00, 2025",
+        "title": "Tiêu đề sự kiện sắp tới",
+        "body": "Lịch hội sách, cuộc họp và sự kiện xuất bản sẽ xuất hiện tại đây."
+      },
+      "3": {
+        "kind": "Thông báo",
+        "date": "Tháng 00, 2025",
+        "title": "Tiêu đề thông báo",
+        "body": "Thông tin phát hành catalogue và hướng dẫn yêu cầu tài liệu sẽ được đăng tại đây."
+      }
+    }
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "managers": {
+      "korean": {
+        "region": "Hàn Quốc",
+        "name": "Camino"
+      },
+      "english": {
+        "region": "Thị trường nói tiếng Anh",
+        "name": "chy.huynh"
+      },
+      "chinese": {
+        "region": "Thị trường nói tiếng Trung",
+        "name": "Gadak"
+      },
+      "seaJapanese": {
+        "region": "Đông Nam Á & thị trường nói tiếng Nhật",
+        "name": "Lana"
+      }
+    },
+    "offices": {
+      "korea": {
+        "city": "Văn phòng Hàn Quốc",
+        "addr": "765 Taejang-ro, Suite 506, Gimpo-si, Gyeonggi-do, Hàn Quốc"
+      },
+      "vietnam": {
+        "city": "Văn phòng Việt Nam",
+        "addr": "Tầng 3, HQ Tower, 201 Trần Não, Phường An Khánh, Thành phố Hồ Chí Minh, Việt Nam"
+      }
+    },
+    "form": {
+      "name": "Tên",
+      "namePlaceholder": "Tên người liên hệ",
+      "email": "Email",
+      "message": "Nội dung",
+      "messagePlaceholder": "Hãy cho chúng tôi biết về yêu cầu bản quyền hoặc đề xuất hợp tác của bạn.",
+      "hint": "Hoặc gửi trực tiếp tới <span>{{email}}</span>.",
+      "send": "Gửi",
+      "sending": "Đang gửi",
+      "successMsg": "Yêu cầu của bạn đã được tiếp nhận.",
+      "errorMsg": "Gửi thất bại. Vui lòng thử lại sau.",
+      "subject": "[Yêu cầu Bookly] {{name}}"
+    }
+  },
+  "footer": {
+    "businessInfoLabel": "Thông tin doanh nghiệp",
+    "partnerCountriesLabel": "Quốc gia đối tác",
+    "businessLines": [
+      "765 Taejang-ro, Gimpo-si, Gyeonggi-do",
+      "Mã số đăng ký kinh doanh 366-88-03545",
+      "CEO Yoon Deok-ok"
+    ],
+    "territories": [
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Đài Loan",
+      "Trung Quốc",
+      "Việt Nam",
+      "Thái Lan",
+      "Indonesia"
+    ],
+    "copyright": "COPYRIGHT© 2025. Bookly. ALL RIGHTS RESERVED"
   }
 }

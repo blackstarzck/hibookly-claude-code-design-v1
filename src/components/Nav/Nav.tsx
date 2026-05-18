@@ -62,7 +62,7 @@ export default function Nav() {
                 group-hover/nav:text-ink-2 group-[.is-solid]/nav:text-ink-2
                 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-px after:bg-current after:transition-[width] after:duration-200 after:ease-out-soft hover:after:w-full"
             >
-              {l.label}
+              {t(l.labelKey)}
             </a>
           ))}
         </div>
@@ -135,7 +135,7 @@ export default function Nav() {
                   onClick={() => setMenuOpen(false)}
                   className="text-lg font-normal tracking-[-0.005em] text-ink-1 no-underline px-4 py-[6px] transition-colors duration-240 ease-out-soft hover:text-bookly-primary"
                 >
-                  {l.label}
+                  {t(l.labelKey)}
                 </a>
               </li>
             ))}
