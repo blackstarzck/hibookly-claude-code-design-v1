@@ -322,7 +322,8 @@
     stroke-width: 1.2;
     stroke-linecap: round;
     stroke-dasharray: 1;
-    stroke-dashoffset: calc(1 - var(--legacy-path-progress, 0));
+    stroke-dashoffset: calc(1 - var(--legacy-spine-progress, 0));
+    transition: stroke-dashoffset 220ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .legacy-timeline__spine {
@@ -427,6 +428,7 @@
       stroke-dashoffset: 0;
     }
 
+    .legacy-timeline__path,
     .legacy-timeline__stagger,
     .legacy-timeline__connector,
     .legacy-timeline__connector::after,

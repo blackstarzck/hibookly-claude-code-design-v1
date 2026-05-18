@@ -143,12 +143,24 @@ export default function LegacyTimeline() {
     if (!node) return;
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+    const getSpineTopPx = () =>
+      parseFloat(window.getComputedStyle(node).paddingTop) || 0;
+
     const setProgress = (spineProgress: number) => {
       node.style.setProperty('--legacy-spine-progress', spineProgress.toFixed(3));
 
+      const spineTopPx = getSpineTopPx();
+      const spineHeight = node.offsetHeight - spineTopPx;
+      if (spineHeight <= 0) return;
+
+      const rootRect = node.getBoundingClientRect();
       const items = Array.from(node.querySelectorAll<HTMLElement>('[data-legacy-item]'));
       items.forEach((item, index) => {
-        const target = (item.offsetTop + item.offsetHeight / 2) / node.offsetHeight;
+        const connector = item.querySelector<HTMLElement>('[data-legacy-connector]');
+        const targetCenter = connector
+          ? connector.getBoundingClientRect().top + connector.offsetHeight / 2 - rootRect.top
+          : item.offsetTop + item.offsetHeight / 2;
+        const target = (targetCenter - spineTopPx) / spineHeight;
         node.style.setProperty(`--legacy-branch-${index}`, spineProgress >= target ? '1' : '0');
       });
     };
@@ -164,7 +176,15 @@ export default function LegacyTimeline() {
       frame = 0;
       const rect = node.getBoundingClientRect();
       const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-      const progress = clamp((viewportHeight * 0.78 - rect.top) / rect.height);
+      const spineTopPx = getSpineTopPx();
+      const spineHeight = rect.height - spineTopPx;
+      if (spineHeight <= 0) {
+        setProgress(0);
+        return;
+      }
+      const progress = clamp(
+        (viewportHeight * 0.55 - rect.top - spineTopPx) / spineHeight,
+      );
 
       setProgress(progress);
     };
@@ -212,7 +232,6 @@ export default function LegacyTimeline() {
           <path
             className="legacy-timeline__path legacy-timeline__spine"
             pathLength="1"
-            style={{ '--legacy-path-progress': 'var(--legacy-spine-progress, 0)' } as CSSProperties}
             d="M500 0V1000"
           />
         </svg>
@@ -231,7 +250,6 @@ export default function LegacyTimeline() {
           <path
             className="legacy-timeline__path legacy-timeline__spine"
             pathLength="1"
-            style={{ '--legacy-path-progress': 'var(--legacy-spine-progress, 0)' } as CSSProperties}
             d="M0 0V1000"
           />
         </svg>
@@ -269,6 +287,7 @@ export default function LegacyTimeline() {
                 </figure>
 
                 <div
+                  data-legacy-connector
                   className="legacy-timeline__connector-wrap max-md:col-start-1 max-md:row-start-1 max-md:self-start md:col-start-2 md:row-start-1 md:self-center"
                   style={
                     {
