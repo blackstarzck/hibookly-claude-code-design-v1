@@ -214,15 +214,15 @@
         "name": "Camino"
       },
       "english": {
-        "region": "English-speaking markets",
-        "name": "chy.huynh"
+        "region": "English language countries",
+        "name": "Chloe"
       },
       "chinese": {
-        "region": "Chinese-speaking markets",
-        "name": "Gadak"
+        "region": "Chinese-language countries",
+        "name": "Gada"
       },
       "seaJapanese": {
-        "region": "Southeast Asia & Japanese-speaking markets",
+          "region": "South East Asia & Japan",
         "name": "Lana"
       }
     },
@@ -242,7 +242,7 @@
       "email": "Email",
       "message": "Message",
       "messagePlaceholder": "Tell us about your rights inquiry or partnership proposal.",
-      "hint": "Or write directly to <span>{{email}}</span>.",
+      "hint": "Or send your inquiry directly to us at: <span>{{email}}</span>.",
       "send": "Send",
       "sending": "Sending",
       "successMsg": "Your inquiry has been received.",

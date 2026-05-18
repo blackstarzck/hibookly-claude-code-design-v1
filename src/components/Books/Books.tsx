@@ -9,6 +9,7 @@ import {
   bookFilters,
   books,
   genreKeyByValue,
+  sectionTitles,
   type Book,
   type FilterValue,
 } from '../../content/homepage';
@@ -26,7 +27,7 @@ export default function Books() {
   return (
     <ContentSection
       id="books"
-      title={t('nav.links.books')}
+      title={sectionTitles.books}
       className="bg-paper"
     >
       <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">

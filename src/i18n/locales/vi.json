@@ -214,15 +214,15 @@
         "name": "Camino"
       },
       "english": {
-        "region": "Thị trường nói tiếng Anh",
-        "name": "chy.huynh"
+        "region": "English language countries",
+        "name": "Chloe"
       },
       "chinese": {
-        "region": "Thị trường nói tiếng Trung",
-        "name": "Gadak"
+        "region": "Chinese-language countries",
+        "name": "Gada"
       },
       "seaJapanese": {
-        "region": "Đông Nam Á & thị trường nói tiếng Nhật",
+          "region": "South East Asia & Japan",
         "name": "Lana"
       }
     },
@@ -242,7 +242,7 @@
       "email": "Email",
       "message": "Nội dung",
       "messagePlaceholder": "Hãy cho chúng tôi biết về yêu cầu bản quyền hoặc đề xuất hợp tác của bạn.",
-      "hint": "Hoặc gửi trực tiếp tới <span>{{email}}</span>.",
+      "hint": "Or send your inquiry directly to us at: <span>{{email}}</span>.",
       "send": "Gửi",
       "sending": "Đang gửi",
       "successMsg": "Yêu cầu của bạn đã được tiếp nhận.",

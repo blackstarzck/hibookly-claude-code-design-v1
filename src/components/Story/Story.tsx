@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
+import { sectionTitles } from '../../content/homepage';
 
 const wisdomcellarLogo = '/assets/wisdomcellar-symbol-logo-dark.png?v=story-logos-20260507';
 const booklyLogo = '/assets/bookly-symbol-logo-white.png?v=story-logos-20260507';
@@ -10,7 +11,7 @@ export default function Story() {
   return (
     <ContentSection
       id="story"
-      title={t('nav.links.story')}
+      title={sectionTitles.story}
       className="bg-paper-2 relative overflow-hidden"
     >
       <div className="grid grid-cols-2 max-md:grid-cols-1 gap-8">

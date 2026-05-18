@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { navLinks } from '../../content/homepage';
 import LanguageSwitcher, { MobileLanguageSelector } from '../ui/LanguageSwitcher';
 
+const CONTACT_CTA_LABEL = 'Contact';
+
 export default function Nav() {
   const { t } = useTranslation();
   const [solid, setSolid] = useState(false);
@@ -62,7 +64,7 @@ export default function Nav() {
                 group-hover/nav:text-ink-2 group-[.is-solid]/nav:text-ink-2
                 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-px after:bg-current after:transition-[width] after:duration-200 after:ease-out-soft hover:after:w-full"
             >
-              {t(l.labelKey)}
+              {l.label}
             </a>
           ))}
         </div>
@@ -76,7 +78,7 @@ export default function Nav() {
               max-[980px]:hidden hover:bg-ink-1"
           >
             <Mail size={18} strokeWidth={1.9} aria-hidden="true" />
-            {t('nav.contactCta')}
+            {CONTACT_CTA_LABEL}
           </a>
           <button
             type="button"
@@ -135,7 +137,7 @@ export default function Nav() {
                   onClick={() => setMenuOpen(false)}
                   className="text-lg font-normal tracking-[-0.005em] text-ink-1 no-underline px-4 py-[6px] transition-colors duration-240 ease-out-soft hover:text-bookly-primary"
                 >
-                  {t(l.labelKey)}
+                  {l.label}
                 </a>
               </li>
             ))}

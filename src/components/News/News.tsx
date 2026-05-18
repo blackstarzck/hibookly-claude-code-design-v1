@@ -1,14 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
-import { newsItems } from '../../content/homepage';
+import { newsItems, sectionTitles } from '../../content/homepage';
 
 export default function News() {
   const { t } = useTranslation();
   return (
     <ContentSection
       id="news"
-      title={t('nav.links.news')}
+      title={sectionTitles.news}
       className="flex max-md:block items-center"
     >
       <div className="flex flex-col gap-6">

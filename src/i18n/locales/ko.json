@@ -214,15 +214,15 @@
         "name": "Camino"
       },
       "english": {
-        "region": "영어권",
-        "name": "chy.huynh"
+        "region": "English language countries",
+        "name": "Chloe"
       },
       "chinese": {
-        "region": "중국어권",
-        "name": "Gadak"
+        "region": "Chinese-language countries",
+        "name": "Gada"
       },
       "seaJapanese": {
-        "region": "동남아권 및 일본어권",
+          "region": "South East Asia & Japan",
         "name": "Lana"
       }
     },
@@ -242,7 +242,7 @@
       "email": "이메일",
       "message": "메시지",
       "messagePlaceholder": "저작권 문의 또는 협업 제안을 자유롭게 적어 주세요.",
-      "hint": "또는 <span>{{email}}</span> 로 직접 보내주셔도 됩니다.",
+      "hint": "Or send your inquiry directly to us at: <span>{{email}}</span>.",
       "send": "보내기",
       "sending": "전송 중",
       "successMsg": "문의가 접수되었습니다.",

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { useTranslation } from 'react-i18next';
 import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
+import { sectionTitles } from '../../content/homepage';
 
 const READY_TIMEOUT_MS = 1500;
 const timelineItems = ['trust', 'operations', 'expansion'] as const;
@@ -208,7 +209,7 @@ export default function LegacyTimeline() {
   return (
     <ContentSection
       id="legacy"
-      title={t('nav.links.story')}
+      title={sectionTitles.story}
       description={t('legacyTimeline.description')}
       className="bg-paper relative overflow-hidden !px-0 !py-0"
       containerClassName="!max-w-none !mx-0"

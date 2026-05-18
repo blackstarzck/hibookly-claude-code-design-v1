@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import ContentSection from '../ui/ContentSection';
+import { sectionTitles } from '../../content/homepage';
 
 type LogoSize = 'wide' | 'midWide' | 'mid' | 'square';
 
@@ -39,7 +40,7 @@ export default function Network() {
       <ContentSection
         id="network"
         tone="dark"
-        title={t('nav.links.network')}
+        title={sectionTitles.network}
         className="relative z-10 bg-transparent text-night-fg-1 overflow-hidden"
       >
         <ul

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import ContentSection from '../ui/ContentSection';
+import { sectionTitles } from '../../content/homepage';
 
 type ShowcaseCover = {
   title: string;
@@ -61,7 +62,7 @@ export default function Showcase() {
   return (
     <ContentSection
       id="showcase"
-      title={t('nav.links.showcase')}
+      title={sectionTitles.showcase}
       description={t('showcase.subtitle')}
       className="relative overflow-hidden"
     >

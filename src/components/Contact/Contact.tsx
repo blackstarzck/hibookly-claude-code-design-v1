@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
-import { managers, offices } from '../../content/homepage';
+import { managers, offices, sectionTitles } from '../../content/homepage';
 
 const CONTACT_EMAIL = 'info@hibookly.com';
 const WEB3FORMS_ENDPOINT = 'https://api.web3forms.com/submit';
@@ -83,7 +83,7 @@ export default function Contact() {
     <ContentSection
       id="contact"
       tone="dark"
-      title={t('nav.links.contact')}
+      title={sectionTitles.contact}
       className="relative overflow-hidden bg-night text-night-fg-1"
     >
       <div className="grid grid-cols-2 gap-20 max-[980px]:grid-cols-1 max-[980px]:gap-14">

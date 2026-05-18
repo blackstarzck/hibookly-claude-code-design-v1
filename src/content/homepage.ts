@@ -1,13 +1,23 @@
 export type Genre = '아동' | '소설' | '자기계발';
 
+export const sectionTitles = {
+  about: 'About us',
+  story: 'Our Story',
+  network: 'Network',
+  showcase: 'Exported titles',
+  books: 'Rights Guide',
+  news: 'News & Events',
+  contact: 'Contact Us',
+} as const;
+
 export const navLinks = [
-  { href: '#about', labelKey: 'nav.links.about' },
-  { href: '#story', labelKey: 'nav.links.story' },
-  { href: '#network', labelKey: 'nav.links.network' },
-  { href: '#showcase', labelKey: 'nav.links.showcase' },
-  { href: '#books', labelKey: 'nav.links.books' },
-  { href: '#news', labelKey: 'nav.links.news' },
-  { href: '#contact', labelKey: 'nav.links.contact' },
+  { href: '#about', label: sectionTitles.about },
+  { href: '#story', label: sectionTitles.story },
+  { href: '#network', label: sectionTitles.network },
+  { href: '#showcase', label: sectionTitles.showcase },
+  { href: '#books', label: sectionTitles.books },
+  { href: '#news', label: sectionTitles.news },
+  { href: '#contact', label: sectionTitles.contact },
 ];
 
 export const stats: { value: number; suffix?: string; labelKey: string }[] = [
